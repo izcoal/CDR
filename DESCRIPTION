@@ -1,18 +1,16 @@
 Package: CDR
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Datos del libro Ciencia de Datos con R
+Version: 0.0.0.9
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Itzcoatl", "Bueno", , "itzbueno@ucm.es", role = c("aut", "cre"),
+           comment = c(ORCID = "https://orcid.org/0000-0002-5629-1906"))
+Description: All the datasets used in the book "Ciencia de Datos con R"
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
 Depends: 
     R (>= 2.10)
 LazyData: true
-Suggests: 
-    testthat (>= 3.0.0)
-Config/testthat/edition: 3
+Imports: 
+    tibble
