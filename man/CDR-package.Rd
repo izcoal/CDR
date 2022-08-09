@@ -6,7 +6,7 @@
 \alias{CDR-package}
 \title{CDR: Datos del libro Ciencia de Datos con R}
 \description{
-All the datasets used in the book "Ciencia de Datos con R"
+All the datasets used in the book "Ciencia de Datos con R".
 }
 \author{
 \strong{Maintainer}: Itzcoatl Bueno \email{itzbueno@ucm.es} (\href{https://orcid.org/0000-0002-5629-1906}{ORCID})

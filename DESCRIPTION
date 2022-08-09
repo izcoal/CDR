@@ -1,10 +1,10 @@
 Package: CDR
 Title: Datos del libro Ciencia de Datos con R
-Version: 0.0.1.1
+Version: 0.0.1.2
 Authors@R: 
     person("Itzcoatl", "Bueno", , "itzbueno@ucm.es", role = c("aut", "cre"),
            comment = c(ORCID = "https://orcid.org/0000-0002-5629-1906"))
-Description: All the datasets used in the book "Ciencia de Datos con R"
+Description: All the datasets used in the book "Ciencia de Datos con R".
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -13,4 +13,4 @@ Depends:
     R (>= 2.10)
 LazyData: true
 Imports: 
-    tibble
+    tibble, raster (>= 3.5), data.table (>= 1.14.0), sf (>= 1.0-8)
