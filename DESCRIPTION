@@ -12,5 +12,7 @@ RoxygenNote: 7.2.1
 Depends: 
     R (>= 2.10)
 LazyData: true
+Remotes: github::paezha/isdas
 Imports: 
-    tibble, raster (>= 3.5), data.table (>= 1.14.0), sf (>= 1.0-8)
+    tibble, raster (>= 3.5), data.table (>= 1.14.0), sf (>= 1.0-8),
+    giscoR (>= 0.3.1), mapSpain (>= 0.6.1), remotes (>= 2.4.2), isdas
