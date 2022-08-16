@@ -15,4 +15,4 @@ LazyData: true
 Remotes: github::paezha/isdas
 Imports: 
     tibble, raster, data.table (>= 1.14.0), sf,
-    giscoR (>= 0.3.1), mapSpain (>= 0.6.1), remotes (>= 2.4.2), isdas
+    giscoR (>= 0.3.1), mapSpain (>= 0.6.1), remotes (>= 2.4.2)
