@@ -1,8 +1,8 @@
 # Load Toledo elev
 
 library(raster)
-filename <- system.file("external/Toledo_DEM.asc", package="CDR")
-elev <- raster(filename)
-#raster(here::here("data-raw/Toledo_DEM.asc"))
+elev <- raster("https://github.com/izcoal/CDR/blob/main/data-raw/Toledo_DEM.asc")
+#elev <- raster(here::here("data-raw/Toledo_DEM.asc"))
 usethis::use_data(elev, overwrite = TRUE)
+
 
