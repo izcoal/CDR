@@ -3,24 +3,24 @@
 \docType{data}
 \name{tempmin_data}
 \alias{tempmin_data}
-\title{Datos de temperaturas}
+\title{Datos de temperatura mínima del aire registradas en España con la borrasca Filomena}
 \format{
-A data.table with 1066 rows and 5 variables:
+Un data.table con 1066 filas y 5 variables:
 \describe{
-\item{fecha}{chr Fecha}
-\item{indicativo}{chr }
-\item{tmin}{num Temperatura mínima}
-\item{longitud}{num longitud}
-\item{latitud}{num latitud}
+\item{fecha}{chr Fecha en la que se midió la temperatura}
+\item{indicativo}{chr Identificador de la estación.}
+\item{tmin}{num Temperatura mínima en grados centígrados.}
+\item{longitud}{num Coordenada (longitud)}
+\item{latitud}{num Coordenada (latitud)}
 }
 }
 \source{
-?????
+Agencia Estatal de Meteorología (AEMET)
 }
 \usage{
 tempmin_data
 }
 \description{
-Datos de temperaturas
+Datos de temperatura mínima del aire registrados en España por las estaciones meteorológicas de la Agencia Estatal de Meteorología (AEMET) entre el 6 y el 10 de Enero de 2021. Estos datos han sido descargados usando la librería climaemet.
 }
 \keyword{datasets}

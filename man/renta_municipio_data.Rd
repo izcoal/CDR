@@ -7,21 +7,22 @@
 \format{
 A data.table with 55273 rows and 6 variables:
 \describe{
-\item{Unidad}{chr Identificador del municipio}
+\item{Unidad}{chr Identificador del municipio.}
 \item{\code{2019}}{int Renta per cápita en 2019}
 \item{\code{2018}}{int Renta per cápita en 2018}
 \item{\code{2017}}{int Renta per cápita en 2017}
 \item{\code{2016}}{int Renta per cápita en 2016}
 \item{\code{2015}}{int Renta per cápita en 2015}
+\item{codigo_ine}{character Código INE que el Instituto Nacional de Estadística de España mantiene para cada municipio.}
 }
 }
 \source{
-?????
+Instituto Nacional de Estadístitca. \url{https://www.ine.es/experimental/atlas/experimental_atlas.htm}
 }
 \usage{
 renta_municipio_data
 }
 \description{
-Datos de renta per capita por municipio (en euros)
+Renta Neta per cápita por municipios (en euros), distritos y secciones censales. Esta información se ha extraído del Atlas de distribución de renta de los hogares proporcionado por el Instituno Nacional de Estadística y ha sido procesada.
 }
 \keyword{datasets}

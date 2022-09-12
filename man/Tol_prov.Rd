@@ -3,9 +3,9 @@
 \docType{data}
 \name{Tol_prov}
 \alias{Tol_prov}
-\title{Datos de la provincia de Toledo}
+\title{Archivo de datos raster de la provincia de Toledo}
 \format{
-A sf with 1 row and 24 variables:
+Un sf con 1 fila y 24 variables:
 \describe{
 \item{codauto}{factor Código de la CCAA}
 \item{cpro}{factor Código de la provincia}
@@ -34,12 +34,12 @@ A sf with 1 row and 24 variables:
 }
 }
 \source{
-?????
+Instituto Geográfico Nacional (IGN). \url{https://www.ign.es/web/ign/portal}
 }
 \usage{
 Tol_prov
 }
 \description{
-Datos de la provincia de Toledo
+Datos espaciales (polígonos) de la provincia de Toledo. Se ha extraído del Instituto Geográfico Nacional (IGN) usando el paquete mapSpain. Contiene varias columnas con el código correspondiente a la provincia según diferentes esquemas de clasificación (INE, NUTS, ISO) así como diferentes denominaciones en varios idiomas (inglés, castellano, catalán, gallego, euskera).
 }
 \keyword{datasets}

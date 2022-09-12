@@ -1,8 +1,8 @@
 #' Data of Tajo river
 #'
-#' Loads a sf object representing Tajo river (Spain)
+#' @description Loads a sf object representing Tajo river (Spain)
 #'
-#' @format A sf with 16 rows and 11 variables:
+#' @format Un sf con 16 filas y 11 variables:
 #' \describe{
 #'   \item{id_rio}{factor }
 #'   \item{pers_hidro}{int }
@@ -13,9 +13,10 @@
 #'   \item{fecha_alta}{date }
 #'   \item{fecha_baja}{date }
 #'   \item{st_length_}{num }
-#'   \item{NOM_RIO}{factor }
+#'   \item{NOM_RIO}{factor Río Tajo}
 #'   \item{geometry}{sfc_LINESTRING}
 
 #' }
-#' @source ????
+#' @source Instituto Geográfico Nacional (IGN). \url{https://www.ign.es/web/ign/portal}
+
 "tajo"
