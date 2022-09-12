@@ -1,9 +1,11 @@
-#' Datos de la provincia de Toledo
+#' Datos de elevación de la provincia de Toledo en metros
 #'
-#' @format A RasterLayer with 32 row, 75 variables and 2400 cells
+#' @format Un RasterLayer con 32 filas, 75 variables y 2400 celdas.
 #' \describe{
 #' \item{x}{}
 #' \item{y}{}
 #' }
-#' @source ?????
+#' @description Datos de la provincia de Toledo
+#' @source DIVA-GIS \url{http://www.diva-gis.org/gdata} mediante el uso del paquete R raster.
 "elev"
+

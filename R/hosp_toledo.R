@@ -1,33 +1,36 @@
-#' Datos de hospitales de Toledo (España)
+#' Datos de hospitales y centros de salud en la ciudad de Toledo (España)
 #'
-#' @format A sf with 30 rows and 26 variables:
+#' @format Un sf con 30 filas y 26 variables:
 #' \describe{
-#'   \item{country}{}
-#'   \item{city}{}
-#'   \item{cap_beds}{}
-#'   \item{emergency}{}
-#'   \item{ref_date}{}
-#'   \item{lon}{}
-#'   \item{house_number}{}
-#'   \item{pub_date}{}
-#'   \item{cap_rooms}{}
-#'   \item{street}{}
-#'   \item{tel}{}
-#'   \item{id}{}
-#'   \item{facility_type}{}
-#'   \item{list_specs}{}
-#'   \item{lat}{}
-#'   \item{email}{}
-#'   \item{hospital_name}{}
-#'   \item{cc}{}
-#'   \item{public_private}{}
-#'   \item{comments}{}
-#'   \item{postcode}{}
-#'   \item{url}{}
-#'   \item{cap_prac}{}
-#'   \item{site_name}{}
+#'   \item{geometry}{chr}
+#'   \item{geoqual}{factor}
+#'   \item{country}{factor País.}
+#'   \item{city}{factor Ciudad.}
+#'   \item{cap_beds}{numeric Número máximo de pacientes que puede ser tratado por hospital.}
+#'   \item{emergency}{factor}
+#'   \item{ref_date}{factor Fecha de referencia de los datos.}
+#'   \item{lon}{numeric}
+#'   \item{house_number}{factor}
+#'   \item{pub_date}{factor Fecha de publicación de los datos.}
+#'   \item{cap_rooms}{factor Número de habitaciones.}
+#'   \item{street}{factor Dirección del hospital.}
+#'   \item{tel}{factor Teléfono del hospital.}
+#'   \item{id}{factor Identificador del hospital.}
+#'   \item{facility_type}{factor Tipo de servicio que ofrece el hospital.}
+#'   \item{list_specs}{factor}
+#'   \item{lat}{numeric}
+#'   \item{email}{factor Dirección email de contacto del hospital.}
+#'   \item{hospital_name}{factor Nombre del hospital.}
+#'   \item{cc}{factor País de referencia.}
+#'   \item{public_private}{factor Tipo de hospital (público o privado).}
+#'   \item{comments}{factor Comentarios}
+#'   \item{postcode}{factor Código postal}
+#'   \item{url}{factor NULL}
+#'   \item{cap_prac}{factor NULL}
+#'   \item{site_name}{factor NULL}
 #'   \item{geo_qual}{}
 #'   \item{geometry}{}
 #'    }
-#' @source ?????
+#' @description Datos de hospitales y centros de salud en la ciudad de Toledo según Eurostat.
+#' @source Eurostat. \url{https://ec.europa.eu/eurostat}
 "hosp_toledo"
