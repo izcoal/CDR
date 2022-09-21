@@ -1,6 +1,6 @@
 Package: CDR
 Title: Datos del libro Ciencia de Datos con R
-Version: 0.0.2.0
+Version: 0.0.2.1
 Authors@R: 
     person("Itzcoatl", "Bueno", , "itzbueno@ucm.es", role = c("aut", "cre"),
            comment = c(ORCID = "https://orcid.org/0000-0002-5629-1906"))
@@ -14,5 +14,5 @@ Depends:
 LazyData: true
 Remotes: github::paezha/isdas
 Imports: 
-    tibble, raster, data.table (>= 1.14.0), sf,
+    tibble, raster, data.table (>= 1.14.0), sf, here,
     giscoR (>= 0.3.1), mapSpain (>= 0.6.1), remotes (>= 2.4.2)
