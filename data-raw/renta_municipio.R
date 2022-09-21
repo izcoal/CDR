@@ -1,4 +1,3 @@
-library(data.table)
 
 extrae_codigo <- function(x) {
 
@@ -6,7 +5,7 @@ extrae_codigo <- function(x) {
 
 }
 
-renta_municipio_data <- fread(here::here("data-raw/renta_municipio.csv"),header = TRUE,na=".")
+renta_municipio_data <- data.table::fread(here::here("data-raw/renta_municipio.csv"),header = TRUE,na=".")
 
 renta_municipio_data$codigo_ine <- sapply(as.character(renta_municipio_data$Unidad), extrae_codigo)
 

@@ -1,6 +1,6 @@
 Package: CDR
 Title: Datos del libro Ciencia de Datos con R
-Version: 0.0.1.2
+Version: 0.0.2.0
 Authors@R: 
     person("Itzcoatl", "Bueno", , "itzbueno@ucm.es", role = c("aut", "cre"),
            comment = c(ORCID = "https://orcid.org/0000-0002-5629-1906"))
