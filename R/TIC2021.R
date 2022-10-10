@@ -1,0 +1,46 @@
+#' Estadísticas de uso de las TIC en la Unión Europea 2021
+#'
+#' Porcentaje de individuos, empresas u hogares.
+#'
+#' @format Un data.table con 27 filas y 7 variables
+#' \describe{
+#'   \item{ebroad}{chr Porcentaje de empresas con acceso a banda ancha (fija o móvil) considerando todas las empresas sin sector financiero (10 o más empleados y trabajadores por cuenta propia).}
+#'   \item{esales}{chr Porcentaje de empresas con ventas de comercio electrónico de al menos 1% de facturación considerando todas las empresas sin sector financiero (10 o más empleados y trabajadores por cuenta propia).}
+#'   \item{esocmedia}{chr Porcentaje de empresas que usan alguna red social a partir de 2014 considerando todas las empresas sin sector financiero (10 o más empleados y trabajadores por cuenta propia).}
+#'   \item{eweb}{chr Porcentaje de empresas que tienen un sitio web o página web propia considerando todas las empresas sin sector financiero (10 o más empleados y trabajadores por cuenta propia).}
+#'   \item{hbroad}{chr Porcentaje de hogares con conexión de banda ancha.}
+#'   \item{hiacc}{chr Porcentaje de hogares con acceso a Internet.}
+#'   \item{iuse}{chr Porcentaje de personas que han usado Internet a diario.}
+#' }
+#' @details {
+#' chr País
+#' BE Bélgica
+#' BG Bulgaria
+#' CZ República Checa
+#' DK Dinamarca
+#' GE Alemania
+#' ES Estonia
+#' IR IrlandaGR Grecia
+#' SP España
+#' FR Francia
+#' CR Croacia
+#' IT Italia
+#' CY Chipre
+#' LV Letonia
+#' LT Lituania
+#' LU Luxemburgo
+#' HU Hungria
+#' MT Malta
+#' NH Países Bajos
+#' AU Austria
+#' PL Polonia
+#' PT Portugal
+#' RO Romanía
+#' SL Eslovenia
+#' SK Eslovaquia
+#' FI FinlandiaS
+#' W Suecia
+#' }
+#' @source Base de datos de Eurostat: \url{https://ec.europa.eu/eurostat/data/database}
+#' @usage TIC2021_data
+"TIC2021"
