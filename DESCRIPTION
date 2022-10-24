@@ -10,10 +10,11 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
 Depends: 
-    R (>= 2.10)
+    R (>= 2.10), caret, rpart, rpart.plot, 
+    randomForest, e1071, klaR
 LazyData: true
 Remotes: github::paezha/isdas
 Imports: 
     tibble, raster, data.table (>= 1.14.0), fs, sf, terra, here,
     readxl, giscoR (>= 0.3.1), mapSpain (>= 0.6.1), caret, rpart,  
-    rpart.plot, randomForest, e1071, remotes (>= 2.4.2)
+    rpart.plot, randomForest, e1071, remotes (>= 2.4.2), klaR
