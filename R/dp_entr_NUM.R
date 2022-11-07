@@ -1,6 +1,6 @@
 #' Datos para entrenamiento de los modelos en escala numérica
 #'
-#' @format Un data.frame con 3711 filas y 20 variables.
+#' @format Un data.frame con 558 filas y 20 variables.
 #' \describe{
 #'   \item{ind_pro11}{num Indicador si el cliente es consumidor de ese producto FRAGANCIA_LUXURY (1) o no (0)}
 #'   \item{ind_pro12}{num Indicador si el cliente es consumidor de ese producto DEPILADORA_ELECTRICA (1) o no (0)}
