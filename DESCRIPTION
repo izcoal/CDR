@@ -1,6 +1,6 @@
 Package: CDR
 Title: Datos del libro Ciencia de Datos con R
-Version: 0.0.2.1
+Version: 0.0.3.0
 Authors@R: 
     person("Itzcoatl", "Bueno", , "itzbueno@ucm.es", role = c("aut", "cre"),
            comment = c(ORCID = "https://orcid.org/0000-0002-5629-1906"))
@@ -11,7 +11,7 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
 Depends: 
     R (>= 2.10), caret, rpart, rpart.plot, 
-    randomForest, e1071, klaR
+    randomForest, e1071, klaR, dplyr, reshape2
 LazyData: true
 Remotes: github::paezha/isdas
 Imports: 

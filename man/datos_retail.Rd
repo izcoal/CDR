@@ -7,12 +7,10 @@
 \format{
 Un data.table con 200 000 filas y 4 variables
 \describe{
-\item{diag}{Factor diagnóstico de accidente coronario (0=no, 1=sí)}
-\item{edad}{int edad en años cumplidos.}
-\item{dep}{num depresión en el segmento ST inducida por ejercicio en relación al reposo.}
-\item{sexo}{Factor sexo (0=mujer, 1=hombre)}
-\item{tdolor}{Factor tipo de dolor (1=angina típica; 2=angina atípica; 3=dolor no anginal; 4=asintomático)}
-\item{dhosp}{int número de días de hospitalización.}
+\item{id_ticket}{chr  Identificador de ticket para una de las ventas}
+\item{fecha}{date Abarca las fechas de las transaciones en el en el periodo de estudi octubre 2019 a julio de 2022}
+\item{importe_venta}{dbl Recoge el importe neto de cada transacción de venta en euros, sin incluir impuestos ni otros costes adicionales que puedan distorsionar la comparativa entre los clientes objeto de la segmentación}
+\item{codigo_socio}{chr Contiene el código identificador único de cada cliente vinculado a cada transacción de compra}
 }
 }
 \source{

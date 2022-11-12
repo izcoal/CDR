@@ -1,0 +1,24 @@
+#' Datos para el ejemplo de modelización del retorno publicitario sobre volumen de reservas de una cadena hotelera en España (datos simulados)
+#' @usage hotel_tablonsemanal
+#' @format Un csv con 202 filas y 17 variables:
+#' \describe{
+#' \item{semana}{date Lunes de la semana de referencia}
+#' \item{reservas}{num Número de reservas que ha conseguido la cadena hotelera en cada una de las semanas de referencia}
+#' \item{turismo}{num Número de pernoctaciones}
+#' \item{covid_mov}{num Movilidad desde el comienzo de la pandemia}
+#' \item{notoriedad}{num Conocimiento espontáneo de la marca a lo largo del tiempo}
+#' \item{temperatura}{num Temperatura media en España}
+#' \item{tv_grps20}{num GRPs en TV durante cada semana}
+#' \item{tv_inversion}{num Inversión asociada a la presencia en TV}
+#' \item{resto_off_inversion}{num Resto de inversiones offline realizadas}
+#' \item{paidsearch_imp}{num Impactos (impresiones) de publicidad en buscadores}
+#' \item{paidsearch_inv}{num Inversión de publicidad en buscadores}
+#' \item{display_imp}{num Impactos (impresiones) de publicidad en display}
+#' \item{display_inv}{num Inversión de publicidad en display}
+#' \item{onlinevideo_imp}{num Impactos (impresiones) de publicidad en video online}
+#' \item{onlinevideo_inv}{num Inversión de publicidad en video online}
+#' \item{competidores}{num Inversión de publicidad de la competencia}
+#' \item{eventos}{ch Recoge eventos relevantes en el sector hotelero (en nuestro caso el Black Friday)}
+#' }
+#' @description Fichero que contiene información semanal de reservas (variable dependiente del problema a resolver) y todas las variables independientes (turismo, notoriedad,...) que pueden afectar en la generación de reservas
+"hotel_tablonsemanal"
