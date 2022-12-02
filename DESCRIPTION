@@ -10,7 +10,7 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
 Depends: 
-    R (>= 2.10), caret, rpart, rpart.plot, 
+    R (>= 2.10), caret, rpart, rpart.plot, ipred,
     randomForest, e1071, klaR, dplyr, reshape2
 LazyData: true
 Remotes: github::paezha/isdas
