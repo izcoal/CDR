@@ -1,5 +1,4 @@
 
-IPC <- readxl::read_xlsx(here::here("data-raw/IPC.xlsx"))
-colnames(IPC) <- "ipc"
+IPC <- readxl::read_xlsx(here::here("data-raw/ipc.xlsx"))
 
 usethis::use_data(IPC, overwrite = TRUE)
