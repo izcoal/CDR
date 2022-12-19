@@ -1,4 +1,4 @@
 
-IPC <- readxl::read_xlsx(here::here("data-raw/ipc.xlsx"))
+ipc <- readxl::read_xlsx(here::here("data-raw/ipc.xlsx"))
 
-usethis::use_data(IPC, overwrite = TRUE)
+usethis::use_data(ipc, overwrite = TRUE)
