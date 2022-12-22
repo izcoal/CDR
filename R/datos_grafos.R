@@ -1,6 +1,6 @@
 #' Datos para ejemplo de grafos.
-#' @usage ayuso
-#' @format Un data.framr con 10 filas y 3 variables:
+#' @usage datos_grafos
+#' @format Un data.frame con 10 filas y 3 variables:
 #' \describe{
 #' \item{Num1}{int Representa mediante un id, un numero entre 1 y 5, una persona que tiene relación con la persona representada mediante id en la columna Num2.}
 #' \item{Num2}{int Representa mediante un id, un numero entre 1 y 5, una persona que tiene relación con la persona representada mediante id en la columna Num1.}
