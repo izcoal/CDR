@@ -1,0 +1,13 @@
+#' Datos sobre las elecciones andaluzas (2015, 2018, 2022)
+#'
+#' @description Datos sobre las elecciones andaluzas (2015, 2018, 2022)
+#' @usage tempmax_data
+#' @format Una lista que contiene 3 objetos con distintos formatos: ESP, ESP_utm, grd_sf, grd_sp, temp_max_utm_sf, temp_max_utm_sp
+#' \describe{
+#'   \item{colors_bloques}{Objeto "character" paleta de tres colores para partidos de Derecha, Izquierda, Otros.}
+#'   \item{datos_elecciones}{Objeto "tbl_df"     "tbl"        "data.frame" datos de las elecciones andaluzas de 2015, 2018, 2022.}
+#'   \item{map_munis}{Objeto "tbl_df"     "tbl"        "data.frame"  municipios de Andalucía.}
+#' }
+#' @source ...
+
+"data_periodismo"
