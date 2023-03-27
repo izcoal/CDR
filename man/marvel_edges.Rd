@@ -5,19 +5,19 @@
 \alias{marvel_edges}
 \title{Relación entre los personajes pertenecientes al Universo Marvel.}
 \format{
-Un data.table con 574467 filas y 2 variables
+Un data.table con 98 filas y 2 variables
 \describe{
 \item{hero_from}{chr Nombre del personaje perteneciente al Universo Marvel origen de la relación.}
 \item{hero_to}{chr Nombre del personaje perteneciente al Universo Marvel destino de la relación.}
 }
 }
 \source{
-\url{http://syntagmatic.github.io/exposedata/marvel/}
+Elaboración propia.
 }
 \usage{
 marvel_edges
 }
 \description{
-Contiene dos columnas formateadas para representar la red social del Universo Marvel, donde la primera columna es el nombre de un héroe y la segunda el  nombre de otro héroe con el que tiene algún tipo de relación como por ejemplo coincidir en una batalla, representado cada relación una arista entre dos nodos.
+Contiene dos columnas formateadas para representar la red social del Universo Marvel, donde la primera columna es el nombre de un personaje del Universo cinematografico Marvel y la segunda el nombre de otro con el que coincide en alguna pelicula, representado cada relación una arista entre dos nodos.
 }
 \keyword{datasets}
