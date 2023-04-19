@@ -13,7 +13,7 @@ Un data.frame con 10 filas y 3 variables:
 }
 }
 \source{
-...
+Datos cualitativos simulados.
 }
 \usage{
 datos_grafos
