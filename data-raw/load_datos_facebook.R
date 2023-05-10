@@ -1,8 +1,7 @@
 
 
-datos_facebook <- read.csv(here::here("data-raw/DatosFacebook.csv"),header = FALSE)
+datos_facebook <- read.csv2(here::here("data-raw/DatosFacebook.csv"),header = TRUE)
 
-datos_facebook$V1[1] <- gsub("ï»¿","",datos_facebook$V1[1])
-names(datos_facebook) <- "edge"
+names(datos_facebook)[1] <- "P1"
 
 usethis::use_data(datos_facebook, overwrite = TRUE)

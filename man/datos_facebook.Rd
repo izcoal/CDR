@@ -5,9 +5,10 @@
 \alias{datos_facebook}
 \title{Datos simulados sobre las relaciones de una cuenta en la red social Facebook.}
 \format{
-Un data.frame con 1999 filas y 1 variable:
+Un data.frame con 1999 filas y 2 variable:
 \describe{
-\item{edge}{chr Representa con dos ID a la persona origen y a la persona destino de la relación.}
+\item{P1}{int Representa con un ID a la persona origen de la relación.}
+\item{P2}{int Representa con un ID a la persona destino de la relación.}
 }
 }
 \source{
