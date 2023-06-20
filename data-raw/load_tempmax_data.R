@@ -1,9 +1,9 @@
 
 load(here::here("data-raw/tempmax_data.RData"))
 
-tempmax_data <- list(ESP=ESP, ESP_utm=ESP_utm, grd_sf=grd_sf,
-                     grd_sp=grd_sp,temp_max_utm_sf=temp_max_utm_sf,
-                     temp_max_utm_sp=temp_max_utm_sp)
-
-
-usethis::use_data(tempmax_data, overwrite = TRUE)
+usethis::use_data(ESP, overwrite = TRUE)
+usethis::use_data(ESP_utm, overwrite = TRUE)
+usethis::use_data(grd_sf, overwrite = TRUE)
+usethis::use_data(grd_sp, overwrite = TRUE)
+usethis::use_data(temp_max_utm_sf, overwrite = TRUE)
+usethis::use_data(temp_max_utm_sp, overwrite = TRUE)
